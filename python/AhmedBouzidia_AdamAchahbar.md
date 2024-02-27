@@ -10,20 +10,20 @@ Présence de constantes magiques (des chiffres).
 #### Pourquoi c'est illisible ?
 On ne connaît pas le sens de ces constantes. Par exemple, dans la ligne 28 de la fonction score : `self.p1points > 4`.
 
-### Good methods
+### God methods
 La fonction score :
 #### Pourquoi c'est illisible ?
 Un long bloc avec des if et else imbriqués. On peut créer une fonction pour le cas d'égalité, et une fonction en cas de non égalité. Il suffit donc d'appeler ces fonctions dans la fonction.
 
-### Good methods
-Trop de if else dans la méthode score.
+### God methods
+Trop de if else dans la méthode score.alors qu on peut utiliser des expretions ternaire pour evité
 #### Pourquoi c'est illisible ?
 On ne comprend pas trop la logique et c'est trop long.
 
 ### Pas de convention de style
-Manque de consistance dans le nommage des variables.
+Manque de consistance dans le nommage des variables. 
 #### Pourquoi c'est illisible ?
-La convention de nommage n'est pas respectée. Ici, on utilise un nommage camelCase : `if playerName == "player1"`, et ici, on a un nommage différent : `self.p1points += 1`.
+La convention de nommage n'est pas respectée. Ici, on utilise un nommage camelCase : `if playerName == "player1"`, et ici, on a un nommage différent : `self.p1points += 1,On a won_point on peut le remplacer par wonPoint puiqu on avoir une consistance dans le nommage sois en part avec des CamlCase pour tout nos fonction et variable sois avec un autre style de nommage
 Utiliser les verbes pour les nom de fonctions comme Socore ,on peut nomer par getScore ou calculate Score.
 
 ### Exceptions mutables
